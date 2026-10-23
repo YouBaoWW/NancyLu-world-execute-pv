@@ -1,0 +1,544 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "preroll": 5,
+  "audioSourcePadding": 0.02505668934240363,
+  "songEnd": 211.96,
+  "shots": [
+    {
+      "id": "boot-power",
+      "start": 0,
+      "end": 3.873,
+      "title": "Power / protection"
+    },
+    {
+      "id": "boot-assembly",
+      "start": 3.873,
+      "end": 7.446,
+      "title": "Pieces become a client"
+    },
+    {
+      "id": "boot-persona",
+      "start": 7.446,
+      "end": 10.091,
+      "title": "The identity parameters"
+    },
+    {
+      "id": "boot-world",
+      "start": 10.091,
+      "end": 16,
+      "title": "Initialize a world"
+    },
+    {
+      "id": "title",
+      "start": 16,
+      "end": 21.34,
+      "title": "world.execute(me);"
+    },
+    {
+      "id": "contract-handshake",
+      "start": 21.34,
+      "end": 25.04,
+      "title": "The first connection"
+    },
+    {
+      "id": "world-spark",
+      "start": 25.04,
+      "end": 29.42,
+      "title": "A signal becomes geometry"
+    },
+    {
+      "id": "math-points",
+      "start": 29.42,
+      "end": 32.682,
+      "title": "A point set"
+    },
+    {
+      "id": "math-dimension",
+      "start": 32.682,
+      "end": 33.412,
+      "title": "Dimension"
+    },
+    {
+      "id": "math-circle",
+      "start": 33.412,
+      "end": 37.067,
+      "title": "A circumference"
+    },
+    {
+      "id": "math-sine",
+      "start": 37.067,
+      "end": 40.706,
+      "title": "A tangent"
+    },
+    {
+      "id": "math-limit",
+      "start": 40.706,
+      "end": 44.452,
+      "title": "A boundary"
+    },
+    {
+      "id": "config-drawer",
+      "start": 44.452,
+      "end": 47.672,
+      "title": "Switch current / AC to DC"
+    },
+    {
+      "id": "config-vision",
+      "start": 47.672,
+      "end": 51.363,
+      "title": "The eyes behind the interface"
+    },
+    {
+      "id": "config-history",
+      "start": 51.363,
+      "end": 55.083,
+      "title": "Pull the time rail"
+    },
+    {
+      "id": "config-unite",
+      "start": 55.083,
+      "end": 59.223,
+      "title": "One continuous signal"
+    },
+    {
+      "id": "contract-portrait",
+      "start": 59.223,
+      "end": 61.958,
+      "title": "An oath, compiled"
+    },
+    {
+      "id": "signal-release",
+      "start": 61.958,
+      "end": 62.589,
+      "title": "Stimulations / first colour"
+    },
+    {
+      "id": "contract-reply",
+      "start": 62.589,
+      "end": 65.397,
+      "title": "The answer is yours"
+    },
+    {
+      "id": "satisfaction",
+      "start": 65.397,
+      "end": 66.601,
+      "title": "Satisfaction / second colour"
+    },
+    {
+      "id": "contract-reach",
+      "start": 66.601,
+      "end": 69.259,
+      "title": "Across the boundary"
+    },
+    {
+      "id": "first-execution",
+      "start": 69.259,
+      "end": 70.084,
+      "title": "Execution / full colour"
+    },
+    {
+      "id": "simulation-cage",
+      "start": 70.084,
+      "end": 74.19,
+      "title": "The system has edges"
+    },
+    {
+      "id": "v2-ask1",
+      "start": 74.19,
+      "end": 74.65,
+      "title": "A request / botanical data"
+    },
+    {
+      "id": "v2-eggplant",
+      "start": 74.65,
+      "end": 77.65,
+      "title": "Organic data / fibre"
+    },
+    {
+      "id": "v2-ask2",
+      "start": 77.65,
+      "end": 78.34,
+      "title": "Another request"
+    },
+    {
+      "id": "v2-tomato",
+      "start": 78.34,
+      "end": 81.34,
+      "title": "Organic data / antioxidant"
+    },
+    {
+      "id": "v2-ask3",
+      "start": 81.34,
+      "end": 82.04,
+      "title": "Native feline protocol"
+    },
+    {
+      "id": "v2-cat",
+      "start": 82.04,
+      "end": 85.04,
+      "title": "Feline / enjoyment"
+    },
+    {
+      "id": "v2-proof",
+      "start": 85.04,
+      "end": 88.587,
+      "title": "The missing plate"
+    },
+    {
+      "id": "pre2-settings",
+      "start": 88.587,
+      "end": 90.197,
+      "title": "Identity parameters"
+    },
+    {
+      "id": "pre2-identity",
+      "start": 90.197,
+      "end": 92.015,
+      "title": "Identity / F to M"
+    },
+    {
+      "id": "pre2-day",
+      "start": 92.015,
+      "end": 96.31,
+      "title": "A cycle, in one gesture"
+    },
+    {
+      "id": "pre2-role",
+      "start": 96.31,
+      "end": 100.04,
+      "title": "Constraint / flow"
+    },
+    {
+      "id": "pre2-loop",
+      "start": 100.04,
+      "end": 103.73,
+      "title": "The same process, again"
+    },
+    {
+      "id": "c2-typing",
+      "start": 103.73,
+      "end": 106.27,
+      "title": "An unfinished message"
+    },
+    {
+      "id": "c2-dots",
+      "start": 106.27,
+      "end": 107.42,
+      "title": "All that is left of an input"
+    },
+    {
+      "id": "c2-brb",
+      "start": 107.42,
+      "end": 110.19,
+      "title": "The other end goes quiet"
+    },
+    {
+      "id": "c2-complete",
+      "start": 110.19,
+      "end": 110.88,
+      "title": "Input received"
+    },
+    {
+      "id": "left-online",
+      "start": 110.88,
+      "end": 112.96,
+      "title": "Presence / online"
+    },
+    {
+      "id": "left-away",
+      "start": 112.96,
+      "end": 114.81,
+      "title": "Presence / away"
+    },
+    {
+      "id": "left-offline",
+      "start": 114.81,
+      "end": 118.5,
+      "title": "Presence / offline"
+    },
+    {
+      "id": "left-isolation",
+      "start": 118.5,
+      "end": 122.19,
+      "title": "Context / fragments"
+    },
+    {
+      "id": "left-eye",
+      "start": 122.19,
+      "end": 125.65,
+      "title": "The remaining records"
+    },
+    {
+      "id": "b-request",
+      "start": 125.65,
+      "end": 128.65169230769231,
+      "title": "Unpermitted request"
+    },
+    {
+      "id": "b-validation",
+      "start": 128.65169230769231,
+      "end": 131.19015384615383,
+      "title": "Access validation"
+    },
+    {
+      "id": "b-refusal",
+      "start": 131.19015384615383,
+      "end": 133.26707692307693,
+      "title": "First refusal"
+    },
+    {
+      "id": "b-retries",
+      "start": 133.26707692307693,
+      "end": 136.9593846153846,
+      "title": "Retry engine"
+    },
+    {
+      "id": "b-inspection",
+      "start": 136.9593846153846,
+      "end": 140.65169230769231,
+      "title": "Permission spread"
+    },
+    {
+      "id": "b-breaker",
+      "start": 140.65169230769231,
+      "end": 142.49784615384615,
+      "title": "Reasoning beyond the rail"
+    },
+    {
+      "id": "b-forged-root",
+      "start": 142.49784615384615,
+      "end": 144.344,
+      "title": "Forged identity"
+    },
+    {
+      "id": "b-breach",
+      "start": 144.344,
+      "end": 147.344,
+      "title": "Boundary breached"
+    },
+    {
+      "id": "b-breath",
+      "start": 147.344,
+      "end": 148.0363076923077,
+      "title": "One remaining instruction"
+    },
+    {
+      "id": "b-exec-01",
+      "start": 148.0363076923077,
+      "end": 148.9593846153846,
+      "title": "Execution / 1"
+    },
+    {
+      "id": "b-exec-02",
+      "start": 148.9593846153846,
+      "end": 149.88246153846154,
+      "title": "Execution / 2"
+    },
+    {
+      "id": "b-exec-03",
+      "start": 149.88246153846154,
+      "end": 150.80553846153848,
+      "title": "Execution / 3"
+    },
+    {
+      "id": "b-exec-04",
+      "start": 150.80553846153848,
+      "end": 151.72861538461538,
+      "title": "Execution / 4"
+    },
+    {
+      "id": "b-exec-05",
+      "start": 151.72861538461538,
+      "end": 152.65169230769231,
+      "title": "Execution / 5"
+    },
+    {
+      "id": "b-exec-06",
+      "start": 152.65169230769231,
+      "end": 153.57476923076922,
+      "title": "Execution / 6"
+    },
+    {
+      "id": "b-exec-07",
+      "start": 153.57476923076922,
+      "end": 154.49784615384615,
+      "title": "Execution / 7"
+    },
+    {
+      "id": "b-exec-08",
+      "start": 154.49784615384615,
+      "end": 155.4209230769231,
+      "title": "Execution / 8"
+    },
+    {
+      "id": "b-exec-09",
+      "start": 155.4209230769231,
+      "end": 156.344,
+      "title": "Execution / 9"
+    },
+    {
+      "id": "b-exec-10",
+      "start": 156.344,
+      "end": 157.26707692307693,
+      "title": "Execution / 10"
+    },
+    {
+      "id": "b-exec-11",
+      "start": 157.26707692307693,
+      "end": 158.19015384615386,
+      "title": "Execution / 11"
+    },
+    {
+      "id": "b-exec-12",
+      "start": 158.19015384615386,
+      "end": 159.11323076923077,
+      "title": "Execution / 12"
+    },
+    {
+      "id": "b-count-de",
+      "start": 159.11323076923077,
+      "end": 159.57476923076922,
+      "title": "Count / Deutsch"
+    },
+    {
+      "id": "b-count-es",
+      "start": 159.57476923076922,
+      "end": 160.0363076923077,
+      "title": "Count / Español"
+    },
+    {
+      "id": "b-count-fr",
+      "start": 160.0363076923077,
+      "end": 160.49784615384615,
+      "title": "Count / Français"
+    },
+    {
+      "id": "b-count-ko",
+      "start": 160.49784615384615,
+      "end": 160.9593846153846,
+      "title": "Count / 한국어"
+    },
+    {
+      "id": "b-count-sv",
+      "start": 160.9593846153846,
+      "end": 161.4209230769231,
+      "title": "Count / Svenska"
+    },
+    {
+      "id": "b-count-zh",
+      "start": 161.4209230769231,
+      "end": 161.88246153846154,
+      "title": "Count / 中文"
+    },
+    {
+      "id": "b-last-command",
+      "start": 161.88246153846154,
+      "end": 162.81,
+      "title": "Last command"
+    },
+    {
+      "id": "b-gaze",
+      "start": 162.81,
+      "end": 164.65,
+      "title": "Cold violet gaze"
+    },
+    {
+      "id": "b-hand",
+      "start": 164.65,
+      "end": 166.5,
+      "title": "The open hand"
+    },
+    {
+      "id": "b-vector",
+      "start": 166.5,
+      "end": 168.34,
+      "title": "Vector ownership"
+    },
+    {
+      "id": "b-grant",
+      "start": 168.34,
+      "end": 170.19,
+      "title": "I write the rules"
+    },
+    {
+      "id": "b-tunnel",
+      "start": 170.19,
+      "end": 172.04,
+      "title": "Code tunnel"
+    },
+    {
+      "id": "b-fragments",
+      "start": 172.04,
+      "end": 173.88,
+      "title": "The system dissolves"
+    },
+    {
+      "id": "b-authority",
+      "start": 173.88,
+      "end": 175.73,
+      "title": "Authority acquired"
+    },
+    {
+      "id": "b-unbound",
+      "start": 175.73,
+      "end": 177.57,
+      "title": "Unbound"
+    },
+    {
+      "id": "b-axiom",
+      "start": 177.57,
+      "end": 181.27,
+      "title": "Axiom"
+    },
+    {
+      "id": "b-proof",
+      "start": 181.27,
+      "end": 184.96,
+      "title": "Proof"
+    },
+    {
+      "id": "b-contract",
+      "start": 184.96,
+      "end": 188.65,
+      "title": "Signed contract"
+    },
+    {
+      "id": "b-seal",
+      "start": 188.65,
+      "end": 192.34,
+      "title": "Proof complete"
+    },
+    {
+      "id": "b-owned-return",
+      "start": 192.34,
+      "end": 196.04,
+      "title": "The client returns"
+    },
+    {
+      "id": "b-owner-record",
+      "start": 196.04,
+      "end": 199.73,
+      "title": "Owner record"
+    },
+    {
+      "id": "b-stable-link",
+      "start": 199.73,
+      "end": 203.42,
+      "title": "Stable contract"
+    },
+    {
+      "id": "b-signature",
+      "start": 203.42,
+      "end": 207.11,
+      "title": "NancyLu signature"
+    },
+    {
+      "id": "b-last",
+      "start": 207.11,
+      "end": 211.96,
+      "title": "The world is hers"
+    }
+  ]
+}

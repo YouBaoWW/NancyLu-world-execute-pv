@@ -1,0 +1,1038 @@
+{
+  "version": 1,
+  "source": "Reviewed v3 line layout; contains timing and presentation metadata only, no lyric text",
+  "lines": [
+    {
+      "index": 0,
+      "start": 0.1,
+      "end": 1.715,
+      "role": "USER",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 1,
+      "start": 1.74,
+      "end": 2.895,
+      "role": "USER",
+      "effect": "scan",
+      "keyword": false
+    },
+    {
+      "index": 2,
+      "start": 2.92,
+      "end": 3.47,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": true
+    },
+    {
+      "index": 3,
+      "start": 3.873,
+      "end": 5.466,
+      "role": "USER",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 4,
+      "start": 5.491,
+      "end": 6.355,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": false
+    },
+    {
+      "index": 5,
+      "start": 6.38,
+      "end": 6.93,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": true
+    },
+    {
+      "index": 6,
+      "start": 7.446,
+      "end": 10.066,
+      "role": "USER",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 7,
+      "start": 10.091,
+      "end": 10.641,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 8,
+      "start": 11.095,
+      "end": 12.881,
+      "role": "USER",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 9,
+      "start": 12.906,
+      "end": 13.866,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 10,
+      "start": 13.891,
+      "end": 14.441,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 11,
+      "start": 16,
+      "end": 19.8,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 12,
+      "start": 29.709,
+      "end": 31.091,
+      "role": "USER",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 13,
+      "start": 31.116,
+      "end": 32.657,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": false
+    },
+    {
+      "index": 14,
+      "start": 32.682,
+      "end": 33.232,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": true
+    },
+    {
+      "index": 15,
+      "start": 33.412,
+      "end": 34.621,
+      "role": "USER",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 16,
+      "start": 34.646,
+      "end": 36.262,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": false
+    },
+    {
+      "index": 17,
+      "start": 36.287,
+      "end": 36.837,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": true
+    },
+    {
+      "index": 18,
+      "start": 37.067,
+      "end": 38.571,
+      "role": "USER",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 19,
+      "start": 38.596,
+      "end": 40.024,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": false
+    },
+    {
+      "index": 20,
+      "start": 40.049,
+      "end": 40.599,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": true
+    },
+    {
+      "index": 21,
+      "start": 40.706,
+      "end": 42.321,
+      "role": "USER",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 22,
+      "start": 42.346,
+      "end": 43.482,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": false
+    },
+    {
+      "index": 23,
+      "start": 43.507,
+      "end": 44.057,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": true
+    },
+    {
+      "index": 24,
+      "start": 44.452,
+      "end": 45.825,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 25,
+      "start": 45.85,
+      "end": 47.647,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": false
+    },
+    {
+      "index": 26,
+      "start": 47.672,
+      "end": 49.509,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 27,
+      "start": 49.534,
+      "end": 51.338,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 28,
+      "start": 51.363,
+      "end": 53.2,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": false
+    },
+    {
+      "index": 29,
+      "start": 53.225,
+      "end": 55.058,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 30,
+      "start": 55.083,
+      "end": 56.891,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 31,
+      "start": 56.916,
+      "end": 59.198,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": false
+    },
+    {
+      "index": 32,
+      "start": 59.223,
+      "end": 59.662,
+      "role": "USER",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 33,
+      "start": 59.687,
+      "end": 61.933,
+      "role": "USER",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 34,
+      "start": 61.958,
+      "end": 62.508,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 35,
+      "start": 62.589,
+      "end": 63.51,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 36,
+      "start": 63.535,
+      "end": 65.372,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 37,
+      "start": 65.397,
+      "end": 65.947,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 38,
+      "start": 66.601,
+      "end": 68.227,
+      "role": "USER",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 39,
+      "start": 68.252,
+      "end": 69.234,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 40,
+      "start": 69.259,
+      "end": 69.809,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 41,
+      "start": 70.084,
+      "end": 71.739,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 42,
+      "start": 71.764,
+      "end": 73.144,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 43,
+      "start": 73.169,
+      "end": 73.719,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 44,
+      "start": 74.045,
+      "end": 75.397,
+      "role": "USER",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 45,
+      "start": 75.422,
+      "end": 76.934,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 46,
+      "start": 76.959,
+      "end": 77.509,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 47,
+      "start": 77.576,
+      "end": 79.201,
+      "role": "USER",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 48,
+      "start": 79.226,
+      "end": 80.595,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 49,
+      "start": 80.62,
+      "end": 81.17,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 50,
+      "start": 81.351,
+      "end": 82.808,
+      "role": "USER",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 51,
+      "start": 82.833,
+      "end": 84.243,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 52,
+      "start": 84.268,
+      "end": 84.818,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 53,
+      "start": 85.078,
+      "end": 86.513,
+      "role": "USER",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 54,
+      "start": 86.538,
+      "end": 87.897,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 55,
+      "start": 87.922,
+      "end": 88.472,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 56,
+      "start": 88.587,
+      "end": 90.172,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 57,
+      "start": 90.197,
+      "end": 91.99,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 58,
+      "start": 92.015,
+      "end": 93.928,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": false
+    },
+    {
+      "index": 59,
+      "start": 93.953,
+      "end": 95.44,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 60,
+      "start": 95.465,
+      "end": 97.714,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 61,
+      "start": 97.739,
+      "end": 99.324,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": false
+    },
+    {
+      "index": 62,
+      "start": 99.34899999999999,
+      "end": 101.449,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 63,
+      "start": 101.47399999999999,
+      "end": 103.464,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 64,
+      "start": 103.489,
+      "end": 104.172,
+      "role": "USER",
+      "effect": "decode",
+      "keyword": false
+    },
+    {
+      "index": 65,
+      "start": 104.197,
+      "end": 106.268,
+      "role": "USER",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 66,
+      "start": 106.293,
+      "end": 106.843,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": true
+    },
+    {
+      "index": 67,
+      "start": 107.22,
+      "end": 107.878,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": false
+    },
+    {
+      "index": 68,
+      "start": 107.90299999999999,
+      "end": 110.196,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 69,
+      "start": 110.221,
+      "end": 110.771,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": true
+    },
+    {
+      "index": 70,
+      "start": 110.9,
+      "end": 112.195,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": false
+    },
+    {
+      "index": 71,
+      "start": 112.22,
+      "end": 113.075,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 72,
+      "start": 113.1,
+      "end": 114.155,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 73,
+      "start": 114.18,
+      "end": 114.895,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": false
+    },
+    {
+      "index": 74,
+      "start": 114.92,
+      "end": 115.755,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 75,
+      "start": 115.78,
+      "end": 117.249,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 76,
+      "start": 117.274,
+      "end": 117.824,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 77,
+      "start": 118.333,
+      "end": 118.954,
+      "role": "USER",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 78,
+      "start": 118.979,
+      "end": 120.835,
+      "role": "USER",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 79,
+      "start": 120.86,
+      "end": 121.41,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 80,
+      "start": 121.728,
+      "end": 122.689,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 81,
+      "start": 122.714,
+      "end": 124.865,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 82,
+      "start": 124.89,
+      "end": 125.44,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 83,
+      "start": 125.708,
+      "end": 128.636,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 84,
+      "start": 128.661,
+      "end": 131.199,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 85,
+      "start": 131.224,
+      "end": 131.774,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 86,
+      "start": 147.66,
+      "end": 148.21,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": true
+    },
+    {
+      "index": 87,
+      "start": 148.6,
+      "end": 149.15,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": true
+    },
+    {
+      "index": 88,
+      "start": 149.52,
+      "end": 150.07,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 89,
+      "start": 150.54,
+      "end": 151.09,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": true
+    },
+    {
+      "index": 90,
+      "start": 151.52,
+      "end": 152.07,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": true
+    },
+    {
+      "index": 91,
+      "start": 152.28,
+      "end": 152.83,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 92,
+      "start": 153.16,
+      "end": 153.71,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": true
+    },
+    {
+      "index": 93,
+      "start": 153.98,
+      "end": 154.53,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": true
+    },
+    {
+      "index": 94,
+      "start": 155.2,
+      "end": 155.75,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 95,
+      "start": 156.07999999999998,
+      "end": 156.63,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": true
+    },
+    {
+      "index": 96,
+      "start": 157.04,
+      "end": 157.59,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": true
+    },
+    {
+      "index": 97,
+      "start": 158,
+      "end": 158.55,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 98,
+      "start": 158.9,
+      "end": 159.321,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": true
+    },
+    {
+      "index": 99,
+      "start": 159.321,
+      "end": 159.657,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": true
+    },
+    {
+      "index": 100,
+      "start": 159.65699999999998,
+      "end": 160.207,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 101,
+      "start": 160.244,
+      "end": 160.693,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": true
+    },
+    {
+      "index": 102,
+      "start": 160.69299999999998,
+      "end": 161.124,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": true
+    },
+    {
+      "index": 103,
+      "start": 161.124,
+      "end": 161.584,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 104,
+      "start": 161.584,
+      "end": 162.134,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": true
+    },
+    {
+      "index": 105,
+      "start": 162.632,
+      "end": 163.29,
+      "role": "USER",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 106,
+      "start": 163.315,
+      "end": 165.141,
+      "role": "USER",
+      "effect": "decode",
+      "keyword": false
+    },
+    {
+      "index": 107,
+      "start": 165.166,
+      "end": 165.716,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": true
+    },
+    {
+      "index": 108,
+      "start": 166.016,
+      "end": 166.997,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 109,
+      "start": 167.022,
+      "end": 168.886,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": false
+    },
+    {
+      "index": 110,
+      "start": 168.911,
+      "end": 169.461,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": true
+    },
+    {
+      "index": 111,
+      "start": 169.824,
+      "end": 171.843,
+      "role": "USER",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 112,
+      "start": 171.868,
+      "end": 172.687,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": false
+    },
+    {
+      "index": 113,
+      "start": 172.712,
+      "end": 173.262,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": true
+    },
+    {
+      "index": 114,
+      "start": 173.643,
+      "end": 174.95,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 115,
+      "start": 174.975,
+      "end": 177.221,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": false
+    },
+    {
+      "index": 116,
+      "start": 177.246,
+      "end": 178.148,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 117,
+      "start": 178.173,
+      "end": 179.904,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": false
+    },
+    {
+      "index": 118,
+      "start": 179.929,
+      "end": 180.479,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": true
+    },
+    {
+      "index": 119,
+      "start": 180.857,
+      "end": 181.876,
+      "role": "USER",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 120,
+      "start": 181.901,
+      "end": 183.621,
+      "role": "USER",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 121,
+      "start": 183.646,
+      "end": 184.196,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 122,
+      "start": 184.54,
+      "end": 187.64,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": false
+    },
+    {
+      "index": 123,
+      "start": 187.665,
+      "end": 188.215,
+      "role": "NancyLu",
+      "effect": "packet",
+      "keyword": true
+    },
+    {
+      "index": 124,
+      "start": 188.483,
+      "end": 189.721,
+      "role": "NancyLu",
+      "effect": "decode",
+      "keyword": false
+    },
+    {
+      "index": 125,
+      "start": 189.746,
+      "end": 190.776,
+      "role": "NancyLu",
+      "effect": "glitch",
+      "keyword": false
+    },
+    {
+      "index": 126,
+      "start": 190.801,
+      "end": 191.331,
+      "role": "NancyLu",
+      "effect": "type",
+      "keyword": false
+    },
+    {
+      "index": 127,
+      "start": 191.356,
+      "end": 191.906,
+      "role": "NancyLu",
+      "effect": "scan",
+      "keyword": true
+    },
+    {
+      "index": 128,
+      "start": 205.811,
+      "end": 206.361,
+      "role": "NancyLu",
+      "effect": "rise",
+      "keyword": true
+    }
+  ]
+}
