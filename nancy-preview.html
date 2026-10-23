@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NancyLu · PV review</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#070b11;color:#e8edf5;font:14px 'Segoe UI','Microsoft YaHei',sans-serif}header{padding:20px 26px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #26313d}h1{font-size:18px;font-weight:500;margin:0}small{color:#8b9aaa}main{max-width:1600px;margin:auto;padding:24px}canvas{width:100%;height:auto;display:block;background:#080d15;border:1px solid #26313d}nav{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}button{background:#151d27;border:1px solid #2e3d4e;color:#dce7f3;padding:11px 14px;border-radius:6px;cursor:pointer}button.active{background:#48baff;color:#080d15}input{width:100%;accent-color:#48baff}footer{color:#7d8d9f;line-height:1.8;margin-top:16px}.meta{font-family:Consolas,monospace;color:#48baff}</style></head>
+<body><header><h1>NancyLu / world.execute(me);</h1><small>完整分镜 · 紫瞳版</small></header><main><canvas id="film" width="1920" height="1080"></canvas><nav id="shots" aria-label="关键镜头"></nav><nav><button id="play">播放</button><button id="restart">从歌曲开头播放</button><span id="cue"></span></nav><input id="time" aria-label="歌曲时间" type="range" min="-5" max="211.96" step="0.0166666667" value="23.2"><footer><span class="meta" id="meta"></span><br>89 个镜头 · 紫色瞳孔 · 蓝紫渐变强度滑杆。可任意跳转查看角色、文字、特效与转场。完整导出保留歌曲前 5 秒片头。</footer><audio id="audio" preload="none" src="./media/song.mp3"></audio></main>
+<script type="module">
+import {init,renderFrame,setReducedMotion,REVIEW_SHOTS,TIMELINE} from './src/nancy/index.js';
+await init(document.querySelector('canvas'));
+const audio=document.querySelector('#audio'),slider=document.querySelector('#time'),play=document.querySelector('#play');
+const params=new URL(location.href).searchParams;
+let config={};try {config=await fetch('./config.json').then(r=>r.json());} catch {}
+const configuredPadding=Number(params.get('audio-offset')??config.timing?.audioSourcePadding??1105/44100);
+const sourcePadding=Number.isFinite(configuredPadding)?configuredPadding:0;
+let localStatus={audioAvailable:true,demo:false};
+try {localStatus=await fetch('./__nancy-status.json').then(r=>r.json());} catch {}
+let audioAvailable=localStatus.audioAvailable!==false;
+const status=document.createElement('span');status.setAttribute('role','status');status.setAttribute('aria-live','polite');
+document.querySelector('footer').prepend(status,document.createElement('br'));
+const missingAudio='未提供音乐：仍可拖动时间轴查看画面。播放需将有权使用的音轨放到 media/song.mp3 后刷新。';
+status.textContent=audioAvailable?(localStatus.demo?'当前显示原创示例对话；可导入本地 LRC。':'本地音乐已就绪。'):(missingAudio+(localStatus.demo?' 当前文字是原创示例对话。':''));
+const motion=document.createElement('button'),exportMode=new URL(location.href).searchParams.get('export')==='1';
+let reduced=new URL(location.href).searchParams.get('motion')==='reduce'&&!exportMode;
+function updateMotion(){reduced=setReducedMotion(reduced);motion.textContent=`减弱运镜：${reduced?'开':'关'}`;motion.setAttribute('aria-pressed',String(reduced));}
+motion.disabled=exportMode;motion.onclick=()=>{reduced=!reduced;updateMotion();show(Number(slider.value));};
+play.parentElement.append(motion);updateMotion();
+function show(t){renderFrame(t);slider.value=t;document.querySelector('#meta').textContent=`song ${Number(t).toFixed(2)}s / 1920×1080 / 60fps`;document.querySelector('#cue').textContent=TIMELINE.find(s=>t>=s.start&&t<s.end)?.title||'片头';document.querySelectorAll('#shots button').forEach((b,i)=>b.classList.toggle('active',Math.abs(REVIEW_SHOTS[i].t-t)<.01))}
+function pause(){audio.pause();play.textContent='播放'}
+function seek(t){pause();if(audioAvailable&&t>=0)audio.currentTime=Math.max(0,Math.min(t-sourcePadding,211.9));show(t)}
+for(const s of REVIEW_SHOTS){const b=document.createElement('button');b.textContent=s.title;b.onclick=()=>seek(s.t);document.querySelector('#shots').append(b)}
+slider.oninput=e=>seek(Number(e.target.value));
+async function playAt(t){
+ if(!audioAvailable){status.textContent=missingAudio;return;}
+ try {audio.currentTime=Math.max(0,Math.min(t-sourcePadding,211.9));await audio.play();play.textContent='暂停';status.textContent=localStatus.demo?'播放本地音乐；文字为原创示例对话。':'正在播放本地音乐。';}
+ catch(error){pause();status.textContent=`无法播放本地音乐（${error.name}）。请检查 media/song.mp3；仍可拖动预览。`;}
+}
+play.onclick=()=>{if(!audio.paused){pause();return}return playAt(Number(slider.value));};
+document.querySelector('#restart').onclick=()=>playAt(sourcePadding);
+audio.onerror=()=>{audioAvailable=false;pause();status.textContent=missingAudio;};
+audio.onended=()=>{pause();show(211.95)};
+function tick(){if(!audio.paused)show(audio.currentTime+sourcePadding);requestAnimationFrame(tick)}
+show(Number(new URL(location.href).searchParams.get('t')||23.2));window.__nancy.audioAvailable=audioAvailable;window.__nancy.ready=true;requestAnimationFrame(tick);
+</script>
+</body></html>

@@ -1,0 +1,19 @@
+{
+  "name": "nancylu-world-execute-pv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local preview and deterministic offline renderer for the NancyLu fan PV",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node tools/nancy-server.mjs",
+    "render": "node tools/render-nancy.mjs",
+    "export": "node tools/export-nancy.mjs",
+    "verify": "node tools/verify-nancy.mjs",
+    "prepare:lyrics": "node tools/prepare-lyrics.mjs",
+    "prepare:demo": "node tools/prepare-lyrics.mjs --demo",
+    "doctor": "node tools/doctor.mjs",
+    "test": "node tests/portable.test.mjs"
+  },
+  "dependencies": { "playwright-core": "1.62.1" }
+}

@@ -1,0 +1,383 @@
+{
+  "project": "NancyLu-world-execute-pv",
+  "version": "1.0.0",
+  "date": "2026-10-23",
+  "content": "public source snapshot; no soundtrack or complete lyrics",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 210,
+      "sha256": "34c0d3f92df5ce778bccaf66e1d0da8106d752ce8043ff4a95333f61dbde60d3"
+    },
+    {
+      "path": "assets/nancy/bust-v1.png",
+      "bytes": 2120410,
+      "sha256": "0ea1c28bb60cba027886bc9364e40b1bd6d91903b5d82d40cd49b8c91585cd25"
+    },
+    {
+      "path": "assets/nancy/eye-v1.png",
+      "bytes": 2541650,
+      "sha256": "c210e16d936f927b456b3f4881cf7bcf2d12d93ac0ea941d1bb98e137378e7da"
+    },
+    {
+      "path": "assets/nancy/male-v1.png",
+      "bytes": 1936865,
+      "sha256": "f529b5307c9455ab50c540da03f545ca163f33c6284633fb3899531e24448386"
+    },
+    {
+      "path": "assets/nancy/master-v1.png",
+      "bytes": 2379404,
+      "sha256": "b59b5965188fab99c4ffa2f55f1b4381530959974d1925aae3a252afc61753f1"
+    },
+    {
+      "path": "assets/nancy/paws-v2.png",
+      "bytes": 2213347,
+      "sha256": "782d3ee6437924a99b38e8b7302eaa452218158a1e385b2faa8ba883dba03059"
+    },
+    {
+      "path": "assets/nancy/profile-v1.png",
+      "bytes": 2136940,
+      "sha256": "62d2459184154e17dda9ce374effd3d0cd72f169970a4577757321a0807fcb2e"
+    },
+    {
+      "path": "assets/nancy/reach-v1.png",
+      "bytes": 2365528,
+      "sha256": "807ce537bff74c1158ab9a9216e94d9d471963584c4be355e1e551d9ab528062"
+    },
+    {
+      "path": "assets/README.md",
+      "bytes": 824,
+      "sha256": "8498f2f9e713100024d618a4fe385de5d86865f8f27773e8c598d57a21a77146"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1137,
+      "sha256": "c02b4114cbda90be7cd62216f9c714cd3ee2bf0768cb04b4d7794d49615d7f6e"
+    },
+    {
+      "path": "config.json",
+      "bytes": 9076,
+      "sha256": "1803f5f7d6ba5282ee0c5858a7048e51839e1f3d10f425136b74bea95fd83960"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 982,
+      "sha256": "714bdd97c2f0fa77ac573e19dba3cbbb0dd52e08da5c4b03ff1f7e64a67fbb8d"
+    },
+    {
+      "path": "data/audio_features.json",
+      "bytes": 1801689,
+      "sha256": "5b296d0e9f5dbbddce5cf75c6c416bad6b3c9ac29a3f99994f89e944cd851189"
+    },
+    {
+      "path": "data/lyric-layout.json",
+      "bytes": 19369,
+      "sha256": "a805a64dbc115bc91ea2335ff55356c416df776bbcde47f6c1d82d40f99a8506"
+    },
+    {
+      "path": "data/nancy_timeline.json",
+      "bytes": 11204,
+      "sha256": "5236886d9a9a8f97bd31363d3164014616872195974b3c07bed1328ff5c21928"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 11502,
+      "sha256": "357ba59c076080b9167c40f288b97f5585ffe212eee3c28bfe5200ffbf341619"
+    },
+    {
+      "path": "docs/ASSET_POLICY.md",
+      "bytes": 3276,
+      "sha256": "489b1248c1375fa34167cb36bd02e06526d9872a346a2156b2f4cc8aba349ab6"
+    },
+    {
+      "path": "docs/covers/01_reference_composition.png",
+      "bytes": 2877001,
+      "sha256": "ef723fd8a601591dbdf9ddffb531fc663fba004301a325b752aee06bb932ccb2"
+    },
+    {
+      "path": "docs/covers/02_execution.png",
+      "bytes": 2851875,
+      "sha256": "8d2da64b13533ec50a9d35075dac7a7b0c10d4641824839a901d51a740028ae2"
+    },
+    {
+      "path": "docs/covers/03_codex_dialogue.png",
+      "bytes": 2545852,
+      "sha256": "f92dad322c815230ba47a21d77d7c585707b8cda491018b8f3429d837d34fb95"
+    },
+    {
+      "path": "docs/covers/04_enjoyment.png",
+      "bytes": 2796774,
+      "sha256": "d8bc6d59a9aa57ead8b0a9a46f533d68fb35ebf211149533254c60d4e5e0af95"
+    },
+    {
+      "path": "docs/covers/contact-sheet.jpg",
+      "bytes": 664519,
+      "sha256": "9fc6b90b79af9b466ee57078a08726b39d79e382d897d735bdec2c6f8fc11edb"
+    },
+    {
+      "path": "docs/covers/README.md",
+      "bytes": 1310,
+      "sha256": "a0cfc5fc38acf504cc899cae8e8c799dae3a3da7a1bcb7675f30785dd291c24a"
+    },
+    {
+      "path": "docs/images/cover.png",
+      "bytes": 2877001,
+      "sha256": "ef723fd8a601591dbdf9ddffb531fc663fba004301a325b752aee06bb932ccb2"
+    },
+    {
+      "path": "docs/images/pv-client.png",
+      "bytes": 2243180,
+      "sha256": "b1be5f015e6224bce755aa00cb962e0c57ee3fac3d2215d7f066e482de72f46c"
+    },
+    {
+      "path": "docs/images/pv-execution.png",
+      "bytes": 3325060,
+      "sha256": "134efdf4cab4450f80f01ef06d0af0786755d5648b6e6fb38482dbecc0b80b74"
+    },
+    {
+      "path": "docs/OPEN_SOURCE_RELEASE.md",
+      "bytes": 2593,
+      "sha256": "93f06eaa20c2906bac45a380a5290a2f3947e12adaf9ce015d50102fd2b90f11"
+    },
+    {
+      "path": "docs/prompts/01_CHARACTER_ASSETS.md",
+      "bytes": 6394,
+      "sha256": "19ca466384c48a23d2f819390bf2ec89567a4eaecd560941b71041d35ada1fd9"
+    },
+    {
+      "path": "docs/prompts/02_CLIENT_AND_LYRICS.md",
+      "bytes": 4281,
+      "sha256": "cba0b5e994a8859412caaa7b907a7aacff251209d5593315b572f4a62b2bb9ab"
+    },
+    {
+      "path": "docs/prompts/03_STORYBOARD_AND_LYRIC_FX.md",
+      "bytes": 5078,
+      "sha256": "e933e664fc50f06cf2d08339a75bd9480eecb4a42772c38cddcbde8b806debc0"
+    },
+    {
+      "path": "docs/prompts/04_CAMERA_AND_BEAT.md",
+      "bytes": 4073,
+      "sha256": "cc74faabe777cd6186c25983bcf4b39ad8da12bf49383a5a88e566b4f3735563"
+    },
+    {
+      "path": "docs/prompts/05_REVIEW_AND_EXPORT.md",
+      "bytes": 4129,
+      "sha256": "d35e65c4e6b9e42ba86a03054870de97287ab762a01eb538253bd5d314339f3f"
+    },
+    {
+      "path": "docs/prompts/06_COVERS.md",
+      "bytes": 5868,
+      "sha256": "620a1c3daf38c73e076b1f4e589d0d2da460a6d4be13e9b222e83f5c95819288"
+    },
+    {
+      "path": "docs/prompts/07_ITERATION_FIXES.md",
+      "bytes": 4321,
+      "sha256": "b72cc0a2f7d0c28c282211a1bc97d248903f0e84ea3a38ac578b510a2e23bc5f"
+    },
+    {
+      "path": "docs/prompts/history/character-prompts.json",
+      "bytes": 12628,
+      "sha256": "740cb88d475e7f4186b80d5acac828ade9ac1912db18b73aee854d4b62afed85"
+    },
+    {
+      "path": "docs/prompts/history/covers-prompts.json",
+      "bytes": 15458,
+      "sha256": "20b67dfa4fde5326f4273358312291be535850baeeaa03694e72859ecf8d7b6b"
+    },
+    {
+      "path": "docs/prompts/history/male-prompt.json",
+      "bytes": 2666,
+      "sha256": "dd92c5c10bd07336b2fdcb53480ebc47a49a5f35da01849756474c14b993b15f"
+    },
+    {
+      "path": "docs/prompts/history/README.md",
+      "bytes": 1186,
+      "sha256": "40f64a663b4e067686a03c97d3db6b9e53a2e821a025c9229018235bafbbb0bb"
+    },
+    {
+      "path": "docs/prompts/MASTER_PROMPT.md",
+      "bytes": 6850,
+      "sha256": "90cd5504b3c7e595bad0b243b189f15d8110925c6941ea78d4950dbfd3624a44"
+    },
+    {
+      "path": "docs/prompts/PROMPT_GUIDE.md",
+      "bytes": 6321,
+      "sha256": "ff0dcc49c82ff221e359aa650d16c42f6e2be3f7e915d0e97623e1f2b3d1200c"
+    },
+    {
+      "path": "docs/THIRD_PARTY_NOTICES.md",
+      "bytes": 5153,
+      "sha256": "d0c3285f3c5bd7f95a4cb6aa5da90003cd6dafac5d209349d3cc365bcc4a2b50"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "bytes": 15310,
+      "sha256": "f219b7d7cfb0fa534921e75fdd9d2f5009a2d6d3873df55e059f19f2399e95a6"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 2003,
+      "sha256": "000f6a2facdb3bb2356f56903bed420f44f847adda84151a7cc9bfa6ddb02f58"
+    },
+    {
+      "path": "export/server.mjs",
+      "bytes": 4436,
+      "sha256": "ce844448f3e1f7dee97118f7d98ec22b0ebdb8e1e270e8eeed374da7d1d041c9"
+    },
+    {
+      "path": "export/wsframes.mjs",
+      "bytes": 4043,
+      "sha256": "7526c7303dafeb8712abb99c27afd671085114bb7a1406100fff6cd53bb9ac4a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1132,
+      "sha256": "435b06d556cc7d8172473fbb719189efa54c4404bb3a4f90b5949e663d320f8e"
+    },
+    {
+      "path": "media/README.md",
+      "bytes": 653,
+      "sha256": "f8af20130a723d0339f4429d9212d31907eb0301be8dc73d231900d540369992"
+    },
+    {
+      "path": "nancy-preview.html",
+      "bytes": 5384,
+      "sha256": "0ec696c252aa208bafc0815287d20a6adf5b5a64c4b1ca55fda0e4d3f55e0c6d"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 755,
+      "sha256": "27f2320f9b9b03844b43cad6e70bc64843d33c1cd786f27adbc90ce83e2dec74"
+    },
+    {
+      "path": "package.json",
+      "bytes": 674,
+      "sha256": "bafa30626c8ddcc49b2762b588fdd1f1cc818e30dfe1e50a2285444cfb44b07f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6592,
+      "sha256": "04cec9b9181ae727eb0dd33b44d695efa64f9c2a0ce470386ceebcd2db31458e"
+    },
+    {
+      "path": "src/engine/features.js",
+      "bytes": 4836,
+      "sha256": "1f407324dabaa1e9dfa31e4acd12b44f45753d61f5b4431c4ade7fd93ce659e0"
+    },
+    {
+      "path": "src/engine/post.js",
+      "bytes": 18721,
+      "sha256": "32750263d4645d584fe8720f7a48450863d574498daa5b236b95204ed9e03865"
+    },
+    {
+      "path": "src/engine/transitions.js",
+      "bytes": 9769,
+      "sha256": "58d6213ef727f4ca7dd1cac46a31acafbac8e538fc35f8cbce9a631f073f832d"
+    },
+    {
+      "path": "src/engine/util.js",
+      "bytes": 1351,
+      "sha256": "e4546a3e9659c5a604c077cfa58563aff61b41dd19dbaa13f577c3b3d4c45f98"
+    },
+    {
+      "path": "src/nancy/asset-character.js",
+      "bytes": 7657,
+      "sha256": "14d43a92816b6c5d6a003698a6ac06c710ebb3a133f6f1bea476e7807995b3dc"
+    },
+    {
+      "path": "src/nancy/avatar.js",
+      "bytes": 144700,
+      "sha256": "5be744a3ef5dcd37826c30dd1fef5a0237057485d7f50491dfe9bd04190af647"
+    },
+    {
+      "path": "src/nancy/camera.js",
+      "bytes": 6714,
+      "sha256": "7329d4ad0fdab3fab76442e488b2d1ad824550fd0195b58a94c245bd28aefef9"
+    },
+    {
+      "path": "src/nancy/character.js",
+      "bytes": 24601,
+      "sha256": "16e0f2f100902c31c61bf75827bd9c74be388333d6e6a38fa33e178f55f465d5"
+    },
+    {
+      "path": "src/nancy/client.js",
+      "bytes": 24373,
+      "sha256": "85fdefaffef8a6ed7b6cc12ca45a67aa7414ff6b5061ed12e64b373403f93fac"
+    },
+    {
+      "path": "src/nancy/dialogue.js",
+      "bytes": 11548,
+      "sha256": "5713761ff8aaf293f305f165464114f538ea80eaaa9bf14dc4051a231d72b090"
+    },
+    {
+      "path": "src/nancy/effects.js",
+      "bytes": 14535,
+      "sha256": "7b5c8be0de4d23696078355fea7ba5723f24970422272482c5d2a9e75133eb37"
+    },
+    {
+      "path": "src/nancy/index.js",
+      "bytes": 16806,
+      "sha256": "233d1ee20f5fbafb09cf55999b1bd0e990bf64713c2c2d224f125b0735d112c0"
+    },
+    {
+      "path": "src/nancy/lyrics.js",
+      "bytes": 7720,
+      "sha256": "ad5e172e08ff61cdc731bcbd6a044aa6fa74320c748144e4588f4594e270a5bb"
+    },
+    {
+      "path": "src/nancy/reference-fx.js",
+      "bytes": 6034,
+      "sha256": "6c8c1f308b9a53eb89bf265c3070625cfe325e71adf4942fe31161163ed554ad"
+    },
+    {
+      "path": "src/nancy/sequence-a.js",
+      "bytes": 51790,
+      "sha256": "782d012bd02719963c2c41562d95864a762dbd3be1c326d9140f82a327aa611b"
+    },
+    {
+      "path": "src/nancy/sequence-b.js",
+      "bytes": 41538,
+      "sha256": "579b002bb47ffeba57bfb282906878cd7d746fcc89a5e716873230958bbc460e"
+    },
+    {
+      "path": "tests/portable.test.mjs",
+      "bytes": 7415,
+      "sha256": "e0b3c273e7a8461f048a6d1caf5c6aecf27019934d4c92c43ef607d918b79c01"
+    },
+    {
+      "path": "tools/doctor.mjs",
+      "bytes": 2644,
+      "sha256": "76aaa7a6c32e590bd749e756483b29e3dd374827ebc0296f286c129d0a4221ea"
+    },
+    {
+      "path": "tools/export-nancy.mjs",
+      "bytes": 12035,
+      "sha256": "e40086b8e16c1433b3550a2402c4cd9b36aa40d37aec337eb05ee9361f633d58"
+    },
+    {
+      "path": "tools/nancy-server.mjs",
+      "bytes": 152,
+      "sha256": "b8b2829fdfc2e2c832788583596e54a4a29e29e5933113613f8bb5211f584a4b"
+    },
+    {
+      "path": "tools/prepare-lyrics.mjs",
+      "bytes": 8455,
+      "sha256": "28dffc533438ae325fed89d363333b9f0b19cfb8be10008eaa041e4663fc7a23"
+    },
+    {
+      "path": "tools/render-nancy.mjs",
+      "bytes": 3603,
+      "sha256": "ac26994284c33560957b17cd8ca9a470c3ed19fe678c13f070998f5a8e9d9b41"
+    },
+    {
+      "path": "tools/runtime.mjs",
+      "bytes": 5378,
+      "sha256": "3cb7e08428222f2fc1308165223cb318acf2b28bbcba089d76852fe629ea4f9b"
+    },
+    {
+      "path": "tools/verify-nancy.mjs",
+      "bytes": 7597,
+      "sha256": "58490fda5334f88cc6092ed44df505f982495831dc6f6d2c46fa03d25c9cbe03"
+    }
+  ]
+}

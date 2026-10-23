@@ -1,0 +1,126 @@
+{
+  "paths": {
+    "audio": "media/song.mp3",
+    "features": "data/audio_features.json",
+    "art": "assets/nancy",
+    "script": "src/nancy/sequence-a.js"
+  },
+
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "previewWidth": 960,
+    "previewHeight": 540,
+    "_exactRaster": "true = 2D layers are rasterised on the CPU instead of the GPU (slower, debugging only).",
+    "exactRaster": false
+  },
+
+  "timing": {
+    "_doc": "offset>0 makes ALL visuals (lyrics + beat reactions) happen later; lyricOffset shifts lyrics only. keywordSnap: ALL-CAPS lines snap to the nearest beat if within this many seconds (0 = off). Seconds.",
+    "offset": 0.0,
+    "audioSourcePadding": 0.025056689342403628,
+    "lyricOffset": 0.0,
+    "keywordSnap": 0.06,
+    "lyricMaxHold": 4.0,
+    "lyricSectionGap": 5.0
+  },
+
+  "seed": 20161011,
+
+  "palettes": {
+    "_doc": "Colour is STATE, not decoration (docs/v4/PLAN.md §2). off = AI not started / user gone (greyscale). on = conversation live. warm = same hue, hotter. error = a UI error has happened. ash = errors dismissed, a little orange left. dead = powered down. errRed / errCream are full-field variants of `error` for single shots; errWarm (v4) is the state of the plates from 162.81 to 192.34 s: the dark ground of `error` with the orange and the cream of `warm` (no hue of its own; red only as thin edges). Roles: bg page, panel darker surface, raised cards/bubbles/inputs, line hairlines, text = cream = YOU and primary UI text, sub / mute secondary and disabled text, me = orange = the AI, meHot / meDim brighter / darker orange, err / errDim red. glow = bloom multiplier, sat = how much colour the character art keeps (0 = greyscale).",
+    "off":      { "bg": "#222220", "panel": "#161615", "raised": "#302f2c", "line": "#4b4a45", "text": "#e4e2da", "sub": "#aaa89f", "mute": "#6f6e67", "me": "#a09e95", "meHot": "#d2d0c8", "meDim": "#5e5d57", "err": "#a09e95", "errDim": "#55544f", "bloom": "#d0cec6", "glow": 0.45, "sat": 0.0 },
+    "on":       { "bg": "#262624", "panel": "#1f1e1d", "raised": "#30302e", "line": "#4a4844", "text": "#faf9f5", "sub": "#c2c0b6", "mute": "#7d7b73", "me": "#d97757", "meHot": "#ee8f66", "meDim": "#8a4b36", "err": "#f5506f", "errDim": "#86243c", "bloom": "#ffb08a", "glow": 1.0, "sat": 1.0 },
+    "warm":     { "bg": "#2c2520", "panel": "#241d19", "raised": "#3b312a", "line": "#5e4b3f", "text": "#fffaf1", "sub": "#dccbb9", "mute": "#917d6d", "me": "#ee8552", "meHot": "#ffa066", "meDim": "#a05636", "err": "#f5506f", "errDim": "#86243c", "bloom": "#ffba90", "glow": 1.25, "sat": 1.0 },
+    "error":    { "bg": "#1d1413", "panel": "#160e0d", "raised": "#2d1c1a", "line": "#553331", "text": "#faf9f5", "sub": "#cbb5af", "mute": "#80625d", "me": "#d97757", "meHot": "#ee8f66", "meDim": "#8a4b36", "err": "#f5506f", "errDim": "#8a2440", "bloom": "#ffa8a0", "glow": 1.1, "sat": 0.85 },
+    "errRed":   { "bg": "#a31b33", "panel": "#88162a", "raised": "#b92740", "line": "#d9506a", "text": "#faf9f5", "sub": "#f7dedb", "mute": "#dba0a6", "me": "#ffd9c6", "meHot": "#fff0e6", "meDim": "#e09a80", "err": "#1d1413", "errDim": "#57121f", "bloom": "#ffb0b0", "glow": 0.35, "sat": 0.85 },
+    "errWarm":  { "bg": "#1d1413", "panel": "#160e0d", "raised": "#2d1c1a", "line": "#553331", "text": "#fffaf1", "sub": "#dccbb9", "mute": "#80625d", "me": "#ee8552", "meHot": "#ffa066", "meDim": "#a05636", "err": "#f5506f", "errDim": "#8a2440", "bloom": "#ffba90", "glow": 1.1, "sat": 1.0 },
+    "errCream": { "bg": "#efece3", "panel": "#e2ded3", "raised": "#faf9f5", "line": "#bdb8aa", "text": "#262624", "sub": "#5d5b55", "mute": "#99968c", "me": "#a95234", "meHot": "#8a3a20", "meDim": "#dfa58d", "err": "#b81f4a", "errDim": "#e9a3b0", "bloom": "#ffffff", "glow": 0.2, "sat": 0.85 },
+    "ash":      { "bg": "#1c1b1a", "panel": "#161514", "raised": "#282624", "line": "#3e3b37", "text": "#cfccc4", "sub": "#96938a", "mute": "#6a6862", "me": "#b5765d", "meHot": "#d38d6e", "meDim": "#61493f", "err": "#8c5561", "errDim": "#4a343a", "bloom": "#d9b9a9", "glow": 0.6, "sat": 0.3 },
+    "dead":     { "bg": "#050505", "panel": "#050505", "raised": "#0c0c0c", "line": "#161616", "text": "#8a8880", "sub": "#55544f", "mute": "#2c2c2a", "me": "#4a4844", "meHot": "#6a6862", "meDim": "#262624", "err": "#4a4844", "errDim": "#262624", "bloom": "#8a8880", "glow": 0.3, "sat": 0.0 }
+  },
+
+  "spot": {
+    "_doc": "v4 spot colours: one extra plate, printed beside the three inks, for the two objects of verse 2 only (the eggplant and the tomato keep their own colours; everything else stays orange / cream / black). base = the ink, light / dark = one step up and down. Both must stay clearly apart from the AI's orange (me, meHot) and from the error red (err #f5506f is a rose red: so the tomato is a warm, slightly deep red, never magenta), and the tomato's R / (R + G + B) stays under 0.7 (tools/check_flash.py counts 0.8 and up as saturated red). Section code takes these from cfg.spot; it never writes a hex colour.",
+    "eggplant": { "base": "#7B52AB", "light": "#A886D8", "dark": "#452C68" },
+    "tomato":   { "base": "#D4432F", "light": "#EC6B4F", "dark": "#8C2A1E" }
+  },
+
+  "fonts": {
+    "_doc": "Type roles: mono = system and code, serif = what the AI says, sans = interface and the user. kr* / tc* only for the counting cards and (tcSans) the Chinese line of the warning page before the song: `text` lists EVERY character a role may draw, only those are preloaded. All SIL OFL 1.1 via @fontsource. Sizes are in virtual 1920x1080 units.",
+    "mono":    { "family": "JetBrains Mono", "pkg": "jetbrains-mono", "weights": [300, 400, 700, 800] },
+    "serif":   { "family": "Source Serif 4", "pkg": "source-serif-4", "weights": [400, 600, 700, 900], "italic": [400, 600] },
+    "sans":    { "family": "Inter", "pkg": "inter", "weights": [400, 500, 600, 700, 800] },
+    "cjk": [
+      { "role": "krSerif", "family": "Noto Serif KR", "pkg": "noto-serif-kr", "weight": 700, "text": "넷" },
+      { "role": "krSans",  "family": "Noto Sans KR",  "pkg": "noto-sans-kr",  "weight": 500, "text": "한국어" },
+      { "role": "tcSerif", "family": "Noto Serif TC", "pkg": "noto-serif-tc", "weight": 700, "text": "六" },
+      { "role": "tcSans",  "family": "Noto Sans TC",  "pkg": "noto-sans-tc",  "weight": 500, "text": "中文本片含有閃爍畫面與強光，光敏感者請留意" },
+      { "role": "memeSans", "family": "Noto Sans TC", "pkg": "noto-sans-tc",  "weight": 900, "text": "不要嘲笑我做的视频，这都是我用一点画出来的。" }
+    ]
+  },
+
+  "typing": {
+    "_doc": "Lyric lines are typed as messages. charsPerSec caps speed; maxFraction caps typing time as a share of the line duration.",
+    "charsPerSec": 26,
+    "maxFraction": 0.6,
+    "cursorBlinkHz": 2.5
+  },
+
+  "glow": {
+    "_doc": "Matte interface, local glow. Bloom strength = (base + low * lowGain + flash * flashGain) * palette.glow, and only SATURATED pixels feed it: between satKnee[0] and satKnee[1] saturation a pixel goes from no bloom to full bloom, so cream / grey UI stays flat while orange and red accents glow.",
+    "base": 0.55,
+    "lowGain": 0.2,
+    "flashGain": 0.8,
+    "threshold": 0.0,
+    "satKnee": [0.28, 0.62],
+    "radius": 1.0
+  },
+
+  "post": {
+    "scanlines": 0.03,
+    "scanlineCount": 360,
+    "vignette": 0.34,
+    "grain": 0.028,
+    "aberration": 0.0005,
+    "flicker": 0.0,
+    "zoomOnLow": 0.005,
+    "flashStrength": 0.5
+  },
+
+  "safety": {
+    "_doc": "Photosensitivity guard. maxFlash caps every full-screen flash. preroll = seconds of silent warning page BEFORE the song (v4): the film starts at song time -preroll; every time in the code is song time (audio start = 0), so no cue moves. flashRange = the stretch the warning names, in SONG seconds; whatever is shown to viewers (the warning page, README, storyboard) adds preroll to it. warningLine = the Chinese line of the warning page (its characters must also be in fonts.cjk -> tcSans -> text, or they are not loaded). The small warning toast is still shown until warningSeconds of song time. tools/check_flash.py measures an exported file (use a 60 fps export).",
+    "maxFlash": 0.7,
+    "preroll": 5.0,
+    "flashRange": [148.04, 192.34],
+    "warningLine": "本片含有閃爍畫面與強光，光敏感者請留意",
+    "warningSeconds": 6.5
+  },
+
+  "reactive": {
+    "_doc": "Beat/onset mapping. strongOnset = minimum onset strength (0..1) that may trigger a secondary accent.",
+    "beatDecay": 6.0,
+    "onsetDecay": 9.0,
+    "strongOnset": 0.35
+  },
+
+  "particles": {
+    "burstCount": 26,
+    "ramp": " .:o0#"
+  },
+
+  "wireframe": {
+    "lineWidth": 2.2
+  },
+
+  "export": {
+    "_doc": "codec: auto = h264_nvenc if usable, else libx264.",
+    "codec": "auto",
+    "nvenc": ["-preset", "p7", "-tune", "hq", "-rc", "vbr", "-cq", "20", "-b:v", "0", "-maxrate", "80M", "-bufsize", "160M", "-profile:v", "high", "-bf", "2"],
+    "x264": ["-preset", "slow", "-crf", "16", "-profile:v", "high"],
+    "audio": ["-c:a", "aac", "-b:a", "320k"],
+    "chunkFrames": 60,
+    "browserChannel": "chrome"
+  }
+}
